@@ -19,7 +19,7 @@ const Services = () => {
   return (
     <section
       className="services"
-      style={{ backgroundImage: "url('C:\Program Files (x86)\Dev\zanoSite\led-solutions-website\public\led-tech1.png')" }}
+      style={{ backgroundImage: "url('/led-tech1.png')" }}
     >
       <div className="container">
         <div className="section-header">
