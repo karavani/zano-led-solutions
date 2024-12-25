@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.ee6f7f28.css",
-    "main.js": "/static/js/main.21d1d9e3.js",
-    "static/media/led-bg1.png": "/static/media/led-bg1.ad89856450a7520243a0.png",
-    "static/media/led-bg2.png": "/static/media/led-bg2.458911c5f821ab350351.png",
-    "static/media/led-bg3.png": "/static/media/led-bg3.b7bcfc41b0d3f80f0482.png",
-    "index.html": "/index.html",
-    "main.ee6f7f28.css.map": "/static/css/main.ee6f7f28.css.map",
-    "main.21d1d9e3.js.map": "/static/js/main.21d1d9e3.js.map"
+    "main.css": "./static/css/main.da981588.css",
+    "main.js": "./static/js/main.21d1d9e3.js",
+    "static/media/led-bg1.png": "./static/media/led-bg1.ad89856450a7520243a0.png",
+    "static/media/led-bg2.png": "./static/media/led-bg2.458911c5f821ab350351.png",
+    "static/media/led-bg3.png": "./static/media/led-bg3.b7bcfc41b0d3f80f0482.png",
+    "index.html": "./index.html",
+    "main.da981588.css.map": "./static/css/main.da981588.css.map",
+    "main.21d1d9e3.js.map": "./static/js/main.21d1d9e3.js.map"
   },
   "entrypoints": [
-    "static/css/main.ee6f7f28.css",
+    "static/css/main.da981588.css",
     "static/js/main.21d1d9e3.js"
   ]
 }
