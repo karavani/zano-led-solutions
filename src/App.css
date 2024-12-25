@@ -1,0 +1,211 @@
+/* General styles */
+body,
+html {
+  margin: 0;
+  padding: 0;
+  font-family: "Arial", sans-serif;
+  scroll-behavior: smooth;
+  direction: rtl;
+  background-color: #FFFFFF; /* Bright White for background */
+  color: #343A40; /* Dark Charcoal for primary text */
+}
+
+/* Section styles */
+.section {
+  min-height: 100vh;
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+}
+
+.section.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.home {
+  background: linear-gradient(to bottom, #007BFF, #00FF66); /* Electric Blue to Vivid Lime Green gradient */
+  color: #FFFFFF; /* Bright White for text */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.home .content {
+  max-width: 600px;
+  text-align: center;
+}
+
+.home h1 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+}
+
+.home h2 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+.home p {
+  font-size: 1.2em;
+  margin-bottom: 20px;
+}
+
+.home button {
+  margin: 10px;
+  padding: 10px 20px;
+  font-size: 1em;
+  color: #FFFFFF; /* Bright White for button text */
+  background-color: #007BFF; /* Electric Blue for buttons */
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.home button:hover {
+  background-color: #F38D13; /* Amber Yellow for hover effect */
+}
+
+.services,
+.projects,
+.contact {
+  background-color: #f9f9f9;
+  color: #333;
+  padding: 50px 20px;
+}
+
+.services h2,
+.projects h2,
+.contact h2 {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .home h2 {
+    font-size: 2rem;
+  }
+
+  .home p {
+    font-size: 1rem;
+  }
+
+  .header nav a {
+    font-size: 0.9rem;
+  }
+
+  .header {
+    flex-direction: column;
+    padding: 10px;
+  }
+
+  .header .nav {
+    display: none;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .header .nav.active {
+    display: flex;
+  }
+
+  .header .nav a {
+    font-size: 1.2em;
+  }
+
+  .burger {
+    display: flex;
+  }
+}
+
+/* Projects Section */
+.projects {
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.project {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.project-image {
+  width: 80%;
+  max-width: 600px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+@media (max-width: 768px) {
+  .services-image,
+  .project-image {
+    width: 100%;
+  }
+}
+
+/* Services Section */
+.services {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px 20px;
+}
+
+.services-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 20px;
+}
+
+.services-image {
+  width: 300px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+/* Home Section */
+.home {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+}
+
+.header .burger {
+  display: none;
+  flex-direction: column;
+  gap: 5px;
+  cursor: pointer;
+}
+
+.header .burger div {
+  width: 25px;
+  height: 3px;
+  background-color: white;
+}
+
+@media (max-width: 768px) {
+  .header .burger {
+    display: flex;
+  }
+
+  .header .nav {
+    display: none;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .header .nav.active {
+    display: flex;
+  }
+}
+
