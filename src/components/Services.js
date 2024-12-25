@@ -19,7 +19,6 @@ const Services = () => {
   return (
     <section
       className="services"
-      style={{ backgroundImage: "url('/led-tech1.png')" }}
     >
       <div className="container">
         <div className="section-header">
