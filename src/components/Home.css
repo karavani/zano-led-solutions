@@ -63,12 +63,12 @@
 /* Define Images for Slideshow */
 @keyframes slideshow {
   0% {
-    background-image: url("public/led-bg1.png"); /* Adjust the path to your image */
+    background-image: url("https://github.com/karavani/zano-led-solutions/blob/main/public/led-bg1.png?raw=true"); /* Adjust the path to your image */
     }
     50% {
-    background-image: url("public/led-bg1.png"); /* Replace with your image URL */
+    background-image: url("https://github.com/karavani/zano-led-solutions/blob/main/public/led-bg2.png?raw=true"); /* Replace with your image URL */
     }
     100% {
-    background-image: url("public/led-bg1.png"); /* Replace with your image URL */
+    background-image: url("https://github.com/karavani/zano-led-solutions/blob/main/public/led-bg3.png?raw=true"); /* Replace with your image URL */
     }
 }
