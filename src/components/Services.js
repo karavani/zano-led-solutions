@@ -36,7 +36,7 @@ const Services = () => {
 
           <LazyLoadImage
           className="service-image"
-            src="/led-tech1.png"
+            src="./led-tech1.png"
             alt="תאורה חכמה בחדר ארונות"
             effect="blur"
           />

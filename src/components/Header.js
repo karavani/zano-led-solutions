@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import "./Header.css";
 
 const Header = () => {
@@ -8,7 +7,7 @@ const Header = () => {
       <div className="header-content">
         <div className="header-logo">
           <h1 className="logo">פתרונות טכנולוגיים ללד</h1>
-          <img src="/zano_icon.png" alt="Icon" className="header-icon" />
+          <img src="./zano_icon.png" alt="Icon" className="header-icon" />
         </div>
         <nav className="nav">
           <a href="#home">דף הבית</a>
