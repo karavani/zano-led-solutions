@@ -6,6 +6,11 @@ import Services from "./components/Services";
 import Projects from "./components/Projects";
 import Contact from "./components/Contact";
 import Header from "./components/Header";
+import "./components/Header.css";
+import "./components/Home.css";
+import "./components/Services.css";
+import "./components/Projects.css";
+import "./components/Contact.css";
 
 function App() {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -22,16 +27,16 @@ function App() {
   return (
     <div className="app">
       <Header />
-      <div ref={homeRef} className={`section ${homeInView ? "visible" : "hidden"}`}>
+      <div id="home" ref={homeRef} className={`section ${homeInView ? "visible" : "hidden"}`}>
         <Home />
       </div>
-      <div ref={servicesRef} className={`section ${servicesInView ? "visible" : "hidden"}`}>
+      <div id="services" ref={servicesRef} className={`section ${servicesInView ? "visible" : "hidden"}`}>
         <Services />
       </div>
-      <div ref={projectsRef} className={`section ${projectsInView ? "visible" : "hidden"}`}>
+      <div id="projects" ref={projectsRef} className={`section ${projectsInView ? "visible" : "hidden"}`}>
         <Projects />
       </div>
-      <div ref={contactRef} className={`section ${contactInView ? "visible" : "hidden"}`}>
+      <div id="contact" ref={contactRef} className={`section ${contactInView ? "visible" : "hidden"}`}>
         <Contact />
       </div>
     </div>
