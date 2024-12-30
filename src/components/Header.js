@@ -22,7 +22,7 @@ const Header = () => {
           <a href="#contact">צור קשר</a>
         </nav>
         <div className="header-logo">
-          <img src="/digiliog-logo-b-bg-shadow.png" alt="Icon" className="header-icon" />
+          <img src="./digiliog-logo-b-bg-shadow.png" alt="Icon" className="header-icon" />
         <button
           className="burger"
           onClick={toggleNav}

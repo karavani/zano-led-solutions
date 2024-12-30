@@ -10,7 +10,7 @@ const Home = () => {
     <div className="home" id="home">
       <div className="home-overlay">
         <div>
-          <img src="/digiliog-logo-b-bg-shadow.png" alt="Icon" className="home-logo" />
+          <img src="./digiliog-logo-b-bg-shadow.png" alt="Icon" className="home-logo" />
         </div>
     <div>
 
