@@ -16,7 +16,7 @@
   align-items: center;
   justify-content: center;
   text-align: center;
-  color: #FFFFFF; /* Bright White for text */
+  color: #ffffff; /* Bright White for text */
   z-index: 2; /* Keep text above the images */
   background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black for overlay */
 }
@@ -35,15 +35,15 @@
   padding: 10px 20px;
   font-size: 1.2rem;
   border-radius: 5px;
-  color: #FFFFFF;
-  background-color: #007BFF; /* Electric Blue for button */
+  color: #ffffff;
+  background-color: #007bff; /* Electric Blue for button */
   border: none;
   cursor: pointer;
   transition: background-color 0.3s ease;
 }
 
 .home button:hover {
-  background-color: #F38D13; /* Amber Yellow on hover */
+  background-color: #f38d13; /* Amber Yellow on hover */
 }
 
 /* Background Image Carousel */
@@ -59,16 +59,28 @@
   background-position: center;
   animation: slideshow 24s infinite;
 }
+.home-logo {
+  width: 100vh;
+  height: auto;
+  border-radius: 10px;
+  margin-bottom: -18vh;
+}
 
+@media (max-width: 768px) {
+  .home-logo {
+    width: 100vw;
+    margin-bottom: -20vw;
+  }
+}
 /* Define Images for Slideshow */
 @keyframes slideshow {
   0% {
     background-image: url("https://github.com/karavani/zano-led-solutions/blob/main/public/led-bg1.png?raw=true"); /* Adjust the path to your image */
-    }
-    50% {
+  }
+  50% {
     background-image: url("https://github.com/karavani/zano-led-solutions/blob/main/public/led-bg2.png?raw=true"); /* Replace with your image URL */
-    }
-    100% {
+  }
+  100% {
     background-image: url("https://github.com/karavani/zano-led-solutions/blob/main/public/led-bg3.png?raw=true"); /* Replace with your image URL */
-    }
+  }
 }

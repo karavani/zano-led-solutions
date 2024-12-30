@@ -11,6 +11,7 @@ import "./components/Home.css";
 import "./components/Services.css";
 import "./components/Projects.css";
 import "./components/Contact.css";
+import Footer from "./components/Footer";
 
 function App() {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -36,9 +37,10 @@ function App() {
       <div id="projects" ref={projectsRef} className={`section ${projectsInView ? "visible" : "hidden"}`}>
         <Projects />
       </div>
-      <div id="contact" ref={contactRef} className={`section ${contactInView ? "visible" : "hidden"}`}>
+      <div id="contact" ref={contactRef} className={`contactSection section ${contactInView ? "visible" : "hidden"}`}>
         <Contact />
       </div>
+      <Footer />
     </div>
   );
 }

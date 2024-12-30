@@ -21,7 +21,7 @@
   align-items: center;
 }
 .header-icon {
-  width: 40px;
+  width: 190px;
   margin: 0;
   margin-left: 10px;
 }
@@ -69,15 +69,12 @@
   height: 3px;
   background-color: #ffffff; /* Bright White */
 }
-
-/* Responsive Styles */
 @media (max-width: 768px) {
   .burger {
     display: flex;
   }
 
   .nav {
-    width: 100%;
     display: none;
     flex-direction: column;
     gap: 10px;
@@ -86,10 +83,10 @@
     padding: 10px;
     border-top: 1px solid #6c757d; /* Cool Gray divider */
     position: absolute;
-    top: 73px;
+    top: 53px; /* Match header height */
   }
 
-  .nav.active {
+  .nav.nav-open {
     display: flex;
   }
 
