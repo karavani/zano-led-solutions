@@ -55,7 +55,7 @@ const Projects = () => {
         </div>
         <div ref={ref3} className={`project ${inView2 ? "visible" : "hidden"}`}>
           <LazyLoadImage
-            src="led-project4.jpg"
+            src="led-project3.jpg"
             alt="תאורה חכמה בחדר ארונות"
             effect="blur"
           />
