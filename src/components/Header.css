@@ -23,7 +23,7 @@
 .header-icon {
   width: 190px;
   margin: 0;
-  margin-left: 10px;
+  margin-left: 20px;
 }
 
 .header-content {
@@ -49,9 +49,8 @@
 .nav a {
   color: #ffffff;
   text-decoration: none;
-  font-size: 1rem;
+  font-size: 1.15rem;
   padding: 5px 10px;
-  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1);
 }
 
 .nav a:hover {
