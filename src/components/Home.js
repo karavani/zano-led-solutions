@@ -23,8 +23,8 @@ const Home = () => {
       <div className="home-overlay">
         <div>
           <img
-            src="./digiliog-logo-b-bg-shadow.png"
-            alt="Icon"
+            src="./digiliog-logo-b-bg.png"
+            alt="Digilog Logo"
             className="home-logo"
           />
         </div>

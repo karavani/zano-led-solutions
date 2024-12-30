@@ -16,10 +16,10 @@ const Header = () => {
           className={`nav ${isNavOpen ? "nav-open" : ""}`}
           aria-label="Main Navigation"
         >
-          <a href="#home">דף הבית</a>
-          <a href="#services">שירותים</a>
-          <a href="#projects">פרויקטים</a>
-          <a href="#contact">צור קשר</a>
+          <a href="#home" onClick={toggleNav}>דף הבית</a>
+          <a href="#services" onClick={toggleNav}>שירותים</a>
+          <a href="#projects" onClick={toggleNav}>פרויקטים</a>
+          <a href="#contact" onClick={toggleNav}>צור קשר</a>
         </nav>
         <div className="header-logo">
           <img src="./digiliog-logo-b-bg.png" alt="Icon" className="header-icon" />
@@ -29,9 +29,9 @@ const Header = () => {
           aria-expanded={isNavOpen}
           aria-controls="main-navigation"
           >
-          <span className="burger-line"></span>
-          <span className="burger-line"></span>
-          <span className="burger-line"></span>
+          <span className={`burger-line ${isNavOpen ? "nav-open" : ""}`}></span>
+          <span className={`burger-line ${isNavOpen ? "nav-open" : ""}`}></span>
+          <span className={`burger-line ${isNavOpen ? "nav-open" : ""}`}></span>
         </button>
         </div>
       </div>
