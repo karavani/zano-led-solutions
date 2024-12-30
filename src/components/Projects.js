@@ -11,7 +11,7 @@ const Projects = () => {
   const [ref4, inView4] = useInView({ triggerOnce: true });
   const [ref5, inView5] = useInView({ triggerOnce: true });
   const [ref6, inView6] = useInView({ triggerOnce: true });
-  const [ref7, inView7] = useInView({ triggerOnce: true });
+  // const [ref7, inView7] = useInView({ triggerOnce: true });
 
   return (
     <div className="projects">
@@ -22,7 +22,7 @@ const Projects = () => {
       </p>
 
       <div className="project-grid">
-        <div ref={ref1} className={`project ${inView3 ? "visible" : "hidden"}`}>
+        <div ref={ref1} className={`project ${inView1 ? "visible" : "hidden"}`}>
           <LazyLoadImage
             src="led-project1.jpg"
             alt="תאורת RGB במועדון בנמל תל אביב"
@@ -38,7 +38,7 @@ const Projects = () => {
           <p>חוויה ויזואלית מרשימה, המשלבת תאורה דינמית ואסתטיקה ייחודית.</p>
         </div>
 
-        <div ref={ref2} className={`project ${inView6 ? "visible" : "hidden"}`}>
+        <div ref={ref2} className={`project ${inView2 ? "visible" : "hidden"}`}>
           <LazyLoadImage
             src="led-project7.jpg"
             alt="עץ 'שורשים של תקווה' – פרויקט מיוחד לטקס נובה"
@@ -53,7 +53,7 @@ const Projects = () => {
           <h4>התוצאה:</h4>
           <p>מיצב עוצמתי ומרגש שזכה לשבחים רבים בטקס.</p>
         </div>
-        <div ref={ref3} className={`project ${inView2 ? "visible" : "hidden"}`}>
+        <div ref={ref3} className={`project ${inView3 ? "visible" : "hidden"}`}>
           <LazyLoadImage
             src="led-project3.jpg"
             alt="תאורה חכמה בחדר ארונות"
@@ -69,22 +69,7 @@ const Projects = () => {
           <p>פתרון תאורה מתקדם ונוח לשימוש יומיומי עם טאץ' יוקרתי.</p>
         </div>
 
-        <div style={{ display: 'none' }} ref={ref4} className={`project ${inView4 ? "visible" : "hidden"}`}>
-          <LazyLoadImage
-            src="led-project3.jpg"
-            alt="מסכי לד גמישים לפרויקט אומנותי של IO Studio"
-            effect="blur"
-          />
-          <h3>מסכי לד גמישים לפרויקט אומנותי של IO Studio</h3>
-          <h4>מה עשינו:</h4>
-          <p>
-            התקנת מסכי לד גמישים ובקר מקומי לפרויקט אומנותי ייחודי מבית IO
-            Studio.
-          </p>
-          <h4>התוצאה:</h4>
-          <p>יצירת אמנות חיה ומרשימה המשלבת טכנולוגיה ועיצוב.</p>
-        </div>
-        <div ref={ref5} className={`project ${inView1 ? "visible" : "hidden"}`}>
+        <div ref={ref4} className={`project ${inView4 ? "visible" : "hidden"}`}>
           <LazyLoadImage
             src="led1.jpg"
             alt="תחזוקת מסך לד ענק – 100 מ"
@@ -100,7 +85,7 @@ const Projects = () => {
             מסך במצב מושלם, המציג תמונה חדה ומדויקת לשימושים מסחריים ואירועים.
           </p>
         </div>
-        <div ref={ref6} className={`project ${inView5 ? "visible" : "hidden"}`}>
+        <div ref={ref5} className={`project ${inView5 ? "visible" : "hidden"}`}>
           <LazyLoadImage
             src="kankai-project.jpg"
             alt="תאורת פסי לד בבר סושי 'KanKai Bar' בתל אביב"
@@ -115,7 +100,7 @@ const Projects = () => {
           <h4>התוצאה:</h4>
           <p>תאורה אסתטית שמשלימה את עיצוב הבר היוקרתי.</p>
         </div>
-        <div ref={ref7} className={`project ${inView7 ? "visible" : "hidden"}`}>
+        <div ref={ref6} className={`project ${inView6 ? "visible" : "hidden"}`}>
           <LazyLoadImage
             src="led-project2.jpg"
             alt="תיקון מסך לד והחלפת פיקסלים לחברת 'אקרניניו'"
@@ -137,6 +122,21 @@ const Projects = () => {
             המסך חזר לתפקוד מלא עם רמת פירוט מעולה, לשביעות רצון המלא של הלקוח.
           </p>
         </div>
+        {/* <div style={{ display: 'none' }} ref={ref4} className={`project ${inView4 ? "visible" : "hidden"}`}>
+        <LazyLoadImage
+          src="led-project3.jpg"
+          alt="מסכי לד גמישים לפרויקט אומנותי של IO Studio"
+          effect="blur"
+        />
+        <h3>מסכי לד גמישים לפרויקט אומנותי של IO Studio</h3>
+        <h4>מה עשינו:</h4>
+        <p>
+          התקנת מסכי לד גמישים ובקר מקומי לפרויקט אומנותי ייחודי מבית IO
+          Studio.
+        </p>
+        <h4>התוצאה:</h4>
+        <p>יצירת אמנות חיה ומרשימה המשלבת טכנולוגיה ועיצוב.</p>
+      </div> */}
       </div>
 
       <p>
