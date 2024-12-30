@@ -3,6 +3,7 @@
   padding: 20px;
   max-width: 1200px;
   margin: 0 auto;
+  background-color: #ced4da;
 }
 
 .projects h2 {
@@ -15,7 +16,7 @@
 .projects p {
   text-align: center;
   font-size: 1.2em;
-  color: #6c757d; /* Cool Gray for secondary text */
+  color: #343a40; /* Cool Gray for secondary text */
   margin: 2px;
 }
 
@@ -23,7 +24,7 @@
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 20px;
-  margin: 20px 0;
+  margin: 25px 0;
 }
 
 .project {

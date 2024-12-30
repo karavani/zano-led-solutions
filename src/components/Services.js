@@ -84,7 +84,7 @@ const Services = () => {
           <div className="service-category-content">
           <LazyLoadImage
           className="service-image"
-            src="led-tech3.png"
+            src="led-tech2.png"
             alt="תאורה חכמה בחדר ארונות"
             effect="blur"
           />

@@ -38,6 +38,7 @@
   border-radius: 10px;
   padding: 20px;
   margin-bottom: 20px;
+  z-index: 1;
   transition: transform 0.3s, box-shadow 0.3s;
 }
 
@@ -194,6 +195,7 @@ img {
   right: 0;
   text-align: left;
   float: inline-end;
+  z-index: -1;
   direction: rtl;
   right: 70vh;
 }
